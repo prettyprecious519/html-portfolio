@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form practical</title>
+    <link rel="stylesheet" href="stlye.css"/>
+</head>
+<body>
+    <form class="main">
+        <h1>STUDENTS REGISTRATION FORM</h1>
+        <P>Name of Applicant:</P>
+        <div class="div">
+            <label class="label" for="Fname">First Name:</label>
+             <input class="input" type="text" id="Fname" name:"Fname"/> 
+            <label for="Lname">Last Name:</label>
+             <input class="input" type="text" id="Lname" name:"Lname"/> 
+        </div>
+       
+        <fieldset>
+            <label for="Dbirt">Date Of Birth:
+                <select name="Dbirth">
+                 <option value="month">months</option>
+                 <option value="month">January</option>
+                 <option value="month">February</option>
+                 <option value="month">March</option>
+                 <option value="month">April</option>
+                 <option value="month">May</option>
+                 <option value="month">June</option>
+                 <option value="month">July</option>
+                 <option value="month"> August</option>
+                 <option value="month">September</option>
+                 <option value="month">November</option>
+                 <option value="month">December</option>
+                </select>
+
+                <select name="days">
+                 <option>1</option>
+                   <option>2</option>
+                   <option>3</option>
+                   <option>4</option>
+                   <option>5</option>
+                   <option>6</option
+                    option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>12</option>
+                </select>
+
+                <select name="year">
+                 <option>199**</option>
+                 <option>1991</option>
+                 <option>1992</option>
+                 <option>1993</option>        
+                 <option>1994</option>       
+                 <option>1995</option>       
+                 <option>1996</option>       
+                 <option>1997</option>
+                </select>
+            </label>
+          
+            
+            <label for="Gender">Gender:</label>
+            <label for="Male">Male:<input type="radio" id="male" name="gender"/></label>
+            <label for="Female">Female:<input type="radio" id="female" name="gender"/></label>
+           
+          
+            <label  for="Grade">Grade:<input  type="text" id="grade" name:"grade"/> </label>
+          
+            <label  for="ls">Language Speaking:<input  type="text" id="ls" name:"ls"/> </label>
+          
+            <label  for="ls">Details of Siblings:</label>
+            <textarea rows="2" cols="20">  </textarea>  
+             
+        </fieldset>
+
+
+        <fieldset>
+            <table >
+                <tr>
+                  <td>Fathers Name:<input type="text"/></td> 
+                </tr>
+
+                <tr>
+                  <td>Fathers Phone Number:<input type="text"/></td>
+               </tr>
+
+                <tr>
+                 <td>Fathers Qualification:<input type="text"/></td>
+                </tr>
+
+                <tr>
+                 <td>Fathers occupation:<input type="text"/></td>
+                </tr>
+
+            </table>
+
+             <br>
+
+            <table >
+                <tr>
+                    <td>Mothers Name:<input type="text"/></td> 
+                </tr>
+
+                <tr>
+                   <td>Mothers Phone Number:<input type="text"/></td>
+                </tr>
+
+                <tr>
+                   <td>Mothers Qualification:<input type="text"/></td>
+                </tr>
+
+                <tr>
+                 <td>Mothers occupation:<input type="text"/></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+             <lablel for="address">Address:<input type="text" id="address"/></label>
+         
+             <lablel for="mpayment">Mode Of Payment:</label>
+             <lablel for="cash">Cash:<input type="radio" id="mpayment"/ name="mpayment"></label>
+          
+             <lablel for="cash">Check:<input type="radio" id="mpayment" name="mpayment"/></label>
+          
+             <lablel for="cash">Card:<input type="radio" id="mpayment"/ name="mpayment"></label>
+          
+          
+             <lablel for="tc">Do You Accept:<input type="checkbox" id="terms"/><a href="#">Tearms and Conditions</a></label>
+        </fieldset>
+
+         <input type="submit" placeholder="submit" name="submit"/>
+    </form>
+</body>
+</html>
